@@ -1,11 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap');
 
 div {
-    font-family: 'Noto Serif KR', serif;
-    word-break: keep-all; 
+font-family: 'Noto Serif KR', serif;
+
 }
 
-.kkgs-logo {
+div {word-break:keep-all;}
+
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    width: 50vw;
+}
+
+.banner {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -13,11 +24,6 @@ div {
     width: 70vw;
 }
 
-.twitter-timeline {
-    display: block;
-    margin-left: auto;
-    margin-right: auto; 
-}
 .button {
     width: 13vw;
 }
@@ -78,13 +84,14 @@ div {
 /* For mobile devices */
 @media (max-device-width: 957px) {
 
-    .kkgs-logo {
+    .logo {
+        width: 80vw;
+    }
+
+    .banner {
         width: 95vw;
     }
 
-#twitter-container {
-    width: 95vw;
-}
     /* Increase font size */
     body {
         font-size: 5vw;
@@ -143,4 +150,3 @@ div {
 #footer .feature {
     font-size: 80%;
 }
- 
